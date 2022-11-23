@@ -1,4 +1,4 @@
-####Hopalong Visualizer
+#### Hopalong Visualizer
 
 This repository contains a controllable WebVR port of [Iacopo Sassarini's](https://plus.google.com/113975837825449148012?rel=author) iconic [Barry Martin's Hopalong Attractor Visualizer](http://iacopoapps.appspot.com/hopalongwebgl/).
 
