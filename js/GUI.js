@@ -31,8 +31,8 @@ var control = {
     vrHMDSensor.zeroSensor();
   },
 
-  //misc
-  vidID: 'ip86bjhwLeA',
+  //misc 'Km-0kHxa7jg',
+  vidID: 'z9_prlDi8L0',
   toggleAbout: function() {
     if (document.getElementById('about').style.display == "block") {
       document.getElementById('about').style.display = "none";
@@ -76,7 +76,7 @@ vr.add(control, 'zeroSensor').name('Zero VR Sensor [z]');
 
 var misc = gui.addFolder('Misc');
 misc.add(control, 'vidID').name('YouTube Video ID').onChange(function(value) {
-  document.getElementById('youtubePlayer').setAttribute('src', 'https://www.youtube.com/embed/' + value + '?autoplay=ip86bjhwLeA');
+  document.getElementById('youtubePlayer').setAttribute('src', 'https://www.youtube.com/embed/' + value + '?autoplay=1&VQ=HD720');
 });
 misc.add(control, 'toggleAbout').listen().name('Toggle Info & Credits');
 misc.add(control, 'toggleFPS').listen().name('Toggle FPS');
